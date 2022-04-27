@@ -1,6 +1,6 @@
     @import url(stylenav.css);
     body {
-        background-color: wheat;
+        background-color: #F3E9DD;
     }
     
     .container-hero {
@@ -20,7 +20,7 @@
         box-shadow: 2px 0.5px 10px #404040;
         justify-content: space-between;
         margin: 20px;
-        background-color: rgb(247, 242, 232);
+        background-color: #FDF6EC;
     }
     
     .info-hero {
@@ -35,4 +35,18 @@
     .info-hero h2 {
         font-weight: 300;
         font-size: 20px;
+    }
+    
+    .button1,
+    .button2 {
+        background-color: #B7CADB;
+        padding: 15px;
+        align-self: center;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+    
+    .button1,
+    .button2:hover {
+        cursor: pointer;
     }
