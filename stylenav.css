@@ -5,15 +5,12 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-body {
-    background-color: #c7ced1;
-}
-
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: #D1E1E8;
     box-shadow: 2px 0.5px 10px #404040;
+    padding: 25px;
+    background-color: rgb(238, 204, 140);
 }
 
 .enlaces {
@@ -37,7 +34,7 @@ body {
 }
 
 .enlaces a:hover {
-    background-color: #b5bec2;
+    background-color: wheat;
     border-radius: 5px;
     box-shadow: 1px 0.5px 10px #404040;
 }
