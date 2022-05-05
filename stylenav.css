@@ -9,8 +9,11 @@
     display: flex;
     justify-content: space-between;
     box-shadow: 2px 0.5px 10px #404040;
-    padding: 25px;
+    padding: 15px;
     background-color: #DAB88B;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 .enlaces {
