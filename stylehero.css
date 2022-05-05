@@ -123,3 +123,39 @@
     .benefits__section {
         margin-top: 300px;
     }
+    
+    @media screen and (max-width: 1280px) {
+        .container-hero {
+            flex-wrap: wrap;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        .container-hero {
+            flex-wrap: wrap;
+        }
+        .container-benefits,
+        .container-how-we-work {
+            flex-direction: column;
+        }
+        .container-benefits i,
+        .container-how-we-work i {
+            margin-top: 40px;
+        }
+    }
+    
+    @media screen and (max-width: 576px) {
+        .hero1,
+        .hero2 {
+            width: 90%;
+            max-width: 576px;
+        }
+        .hero1 img,
+        .hero2 img {
+            display: none;
+        }
+        .hero1 h1,
+        .hero2 h1 {
+            margin-bottom: 20px;
+        }
+    }
