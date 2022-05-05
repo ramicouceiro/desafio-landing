@@ -44,9 +44,82 @@
         align-self: center;
         border-radius: 10px;
         margin-top: 30px;
+        transition: 1s;
     }
     
-    .button1,
+    .button1:hover,
     .button2:hover {
         cursor: pointer;
+        background-color: #4b97da;
+    }
+    
+    .benefits-text,
+    .how-we-work-text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .benefits-text h2,
+    .how-we-work-text h2 {
+        padding: 40px;
+        font-size: 40px;
+        letter-spacing: 3px;
+    }
+    
+    .benefits-text p,
+    .how-we-work-text p {
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+    
+    .container-benefits,
+    .container-how-we-work {
+        display: flex;
+        /* border: 1px solid red; */
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .container-benefits i {
+        font-size: 60px;
+    }
+    
+    .how-we-work i {
+        font-size: 40px;
+    }
+    
+    .benefits {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 400px;
+        text-align: center;
+    }
+    
+    .benefits p,
+    .how-we-work p {
+        max-width: 200px;
+    }
+    
+    .how-we-work {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 300px;
+        text-align: center;
+    }
+    
+    .benefits h3,
+    .how-we-work h3 {
+        margin: 40px;
+    }
+    
+    .benefits__section {
+        margin-top: 300px;
     }
