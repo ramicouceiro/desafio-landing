@@ -1,0 +1,132 @@
+@import url(./stylehero.css);
+@import url(./stylenav.css);
+.container-misproyectos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.misproyectos-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.misproyectos-text h2 {
+    padding: 40px;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.misproyectos-text p {
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.container-img {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.container-img img {
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    filter: opacity(75%);
+}
+
+.container-img-text {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    position: absolute;
+    top: 60px;
+    color: white;
+    font-size: 20px;
+}
+
+.container-img :hover {
+    filter: opacity(75%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.contacto-footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-footer {
+    background-color: #DAB88B;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.container-contacto,
+.container-newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-contacto {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.contacto-direccion,
+.contacto-mail,
+.contacto-tel {
+    padding: 30px;
+}
+
+.contacto-direccion i,
+.contacto-mail i,
+.contacto-tel i {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-newsletter h4 {
+    padding: 10px;
+}
+
+.newsletter-input input {
+    display: inline;
+    width: 400px;
+    height: 50px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #946e47;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.newsletter-input button {
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #806a4c;
+}
+
+input:focus {
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 2px solid black;
+}
