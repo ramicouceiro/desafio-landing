@@ -30,6 +30,7 @@
     justify-content: space-around;
     position: relative;
     margin-bottom: 100px;
+    z-index: 0;
 }
 
 .container-img img {
@@ -129,4 +130,23 @@ input:focus {
 button:hover {
     cursor: pointer;
     border: 2px solid black;
+}
+
+@media screen and (max-width: 1280px) {
+    .container-footer {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .container-misproyectos .container-img,
+    .container-img-text {
+        flex-wrap: wrap;
+        height: 100%;
+        flex-direction: column;
+    }
+    .container-misproyectos .container-img {
+        align-items: center;
+    }
+    .container-img-text {
+        text-align: center;
+    }
 }
